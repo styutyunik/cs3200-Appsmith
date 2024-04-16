@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 550,
+          "bottomRow": 500,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -38,6 +38,16 @@
             }
           ],
           [
+            {
+              "id": "InventoryChecker_get_book_details",
+              "name": "get_book_details",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "InventoryTable.selectedRow.BookID"
+              ],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "InventoryChecker_get_curses",
               "name": "get_curses",
