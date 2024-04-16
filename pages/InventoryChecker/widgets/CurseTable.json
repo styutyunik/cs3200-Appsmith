@@ -57,7 +57,7 @@
         }
     },
     "borderRadius": "0px",
-    "columnUpdatedAt": 1713307972626,
+    "columnUpdatedAt": 1713308110119,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 61,
@@ -66,9 +66,9 @@
     "columnOrder": [
         "Name",
         "DangerLevel",
-        "CurseID",
+        "Effect",
         "Description",
-        "Effect"
+        "CurseID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",

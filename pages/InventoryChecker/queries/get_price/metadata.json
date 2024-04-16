@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "InventoryChecker",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -57,7 +57,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-16T22:03:22Z"
   },
-  "id": "Page1_get_price",
+  "id": "InventoryChecker_get_price",
   "deleted": false,
   "gitSyncId": "661d8945509b9a4b519f0f21_661ef5aa06745b5ab743fd1c"
 }

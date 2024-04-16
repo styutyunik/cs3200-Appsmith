@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "InventoryChecker",
+    "slug": "inventorychecker",
     "layouts": [
       {
         "viewMode": false,
@@ -29,7 +29,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_current_stock",
+              "id": "InventoryChecker_current_stock",
               "name": "current_stock",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
           ],
           [
             {
-              "id": "Page1_get_curses",
+              "id": "InventoryChecker_get_curses",
               "name": "get_curses",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -51,7 +51,7 @@
           ],
           [
             {
-              "id": "Page1_get_price",
+              "id": "InventoryChecker_get_price",
               "name": "get_price",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -64,14 +64,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "InventoryChecker",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "6619ce8a77a9287bdf7777a8_6619ce8a77a9287bdf7777aa"

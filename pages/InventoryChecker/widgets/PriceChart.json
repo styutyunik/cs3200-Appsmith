@@ -19,7 +19,7 @@
     "mobileRightColumn": 51,
     "chartData": {"qz2yi8mxdh": {
         "data": "{{get_price.data.map( p => ({x: p.DateSet, y: p.Price}))}}",
-        "seriesName": "Copy {{InventoryTable.selectedRow.CopyID}} Price"
+        "seriesName": ""
     }},
     "animateLoading": true,
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
@@ -29,7 +29,6 @@
         {"key": "customEChartConfig"},
         {"key": "accentColor"},
         {"key": "fontFamily"},
-        {"key": "chartData.qz2yi8mxdh.seriesName"},
         {"key": "chartData.qz2yi8mxdh.data"}
     ],
     "leftColumn": 0,

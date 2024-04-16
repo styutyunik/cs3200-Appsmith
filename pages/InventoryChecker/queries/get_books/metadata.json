@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "InventoryChecker",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -50,7 +50,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-15T20:09:10Z"
   },
-  "id": "Page1_get_books",
+  "id": "InventoryChecker_get_books",
   "deleted": false,
   "gitSyncId": "661d8945509b9a4b519f0f21_661d8966509b9a4b519f0f25"
 }
