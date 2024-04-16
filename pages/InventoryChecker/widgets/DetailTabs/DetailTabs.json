@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 99,
     "borderColor": "#E0DEDE",
-    "widgetName": "CopyDetailTabs",
+    "widgetName": "DetailTabs",
     "isCanvas": true,
     "iconSVG": "/static/media/icon.9e3d67c0af9c0bd092dc56240314e18a.svg",
     "displayName": "Tabs",
