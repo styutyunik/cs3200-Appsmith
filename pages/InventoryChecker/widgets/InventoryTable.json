@@ -294,7 +294,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{get_curses.run();\nget_price.run()}}",
+    "onRowSelected": "{{get_curses.run();\nget_price.run();\nget_book_details.run()}}",
     "key": "hrfx50hcrx",
     "canFreezeColumn": true,
     "isDeprecated": false,
