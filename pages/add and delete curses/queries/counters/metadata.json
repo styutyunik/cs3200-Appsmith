@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_books",
+    "name": "counters",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/b/books"
+        "url": "web:4000/c/curses"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "add and delete curses",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-15T20:26:15Z"
+    "createdAt": "2024-04-16T22:51:34Z"
   },
-  "id": "Page1_get_books",
+  "id": "add and delete curses_counters",
   "deleted": false,
-  "gitSyncId": "661d8d5379717741d8b6349c_661d8d6779717741d8b6349f"
+  "gitSyncId": "661d8d5379717741d8b6349c_661f00f679717741d8b634b7"
 }

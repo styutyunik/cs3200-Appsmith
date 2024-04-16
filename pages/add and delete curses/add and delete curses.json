@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "add and delete curses",
+    "slug": "add-and-delete-curses",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 630,
+          "bottomRow": 640,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 81,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 830,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,8 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_get_books",
-              "name": "get_books",
+              "id": "add and delete curses_counters",
+              "name": "counters",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "add and delete curses_curses",
+              "name": "curses",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,12 +46,22 @@
           ],
           [
             {
-              "id": "Page1_specific_book",
-              "name": "specific_book",
+              "id": "add and delete curses_map",
+              "name": "map",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "add and delete curses_add_curse",
+              "name": "add_curse",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Select_BookID.selectedOptionLabel"
+                "JSON_curses.formData"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -52,15 +69,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "add and delete curses",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6619ce8a77a9287bdf7777a8_6619ce8a77a9287bdf7777aa"
+  "gitSyncId": "661d8d5379717741d8b6349c_661ef4c379717741d8b634ac"
 }

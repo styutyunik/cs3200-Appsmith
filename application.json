@@ -1,8 +1,16 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Find stock of book",
       "isDefault": true
+    },
+    {
+      "id": "add and delete curses",
+      "isDefault": false
+    },
+    {
+      "id": "see curse statuses",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -10,6 +18,12 @@
   "unreadCommentThreads": 0,
   "color": "#C2DAF0",
   "icon": "book",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
