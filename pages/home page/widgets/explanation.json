@@ -20,7 +20,7 @@
     "fontFamily": "Montserrat",
     "parentColumnSpace": 17.390625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 9,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "text": "Please select what your user role is below to view the corresponding pages available:",
     "key": "z8thlr39ih",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 49,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "kfb427wyjj",
