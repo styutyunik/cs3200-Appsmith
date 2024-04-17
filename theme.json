@@ -1,11 +1,11 @@
 {
-  "name": "Pampas",
-  "displayName": "Pampas",
+  "name": "Sharp",
+  "displayName": "Moon",
   "config": {
-    "order": 7,
+    "order": 8,
     "colors": {
-      "primaryColor": "#059669",
-      "backgroundColor": "#ecfdf5"
+      "primaryColor": "#64748b",
+      "backgroundColor": "#f8fafc"
     },
     "borderRadius": {
       "appBorderRadius": {
@@ -39,14 +39,14 @@
   },
   "properties": {
     "colors": {
-      "primaryColor": "#15803d",
-      "backgroundColor": "#dcfce7"
+      "primaryColor": "#99a4f5",
+      "backgroundColor": "#4a4a4f"
     },
     "borderRadius": {
-      "appBorderRadius": "0.375rem"
+      "appBorderRadius": "1.5rem"
     },
     "boxShadow": {
-      "appBoxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)"
+      "appBoxShadow": "none"
     },
     "fontFamily": {
       "appFont": "Nunito Sans"

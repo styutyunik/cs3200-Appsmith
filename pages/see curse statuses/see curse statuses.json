@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 780,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -33,6 +33,18 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "see curse statuses_curse_info",
+              "name": "curse_info",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "curse_count.selectedRow.CurseId"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]

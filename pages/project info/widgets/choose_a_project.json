@@ -14,7 +14,7 @@
         {"key": "borderRadius"},
         {"key": "sourceData"}
     ],
-    "placeholderText": "Select option",
+    "placeholderText": "",
     "isDisabled": false,
     "isRequired": false,
     "dynamicHeight": "FIXED",

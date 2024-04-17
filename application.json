@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Find stock of book",
+      "id": "home page",
       "isDefault": true
+    },
+    {
+      "id": "Find stock of book",
+      "isDefault": false
     },
     {
       "id": "add and delete curses",
@@ -18,10 +22,6 @@
     },
     {
       "id": "employee contributions",
-      "isDefault": false
-    },
-    {
-      "id": "Page3",
       "isDefault": false
     }
   ],
