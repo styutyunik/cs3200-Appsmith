@@ -3,7 +3,7 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 69,
-    "widgetName": "Button1",
+    "widgetName": "refresh",
     "onClick": "{{curses.run();\ncounters.run();\nmap.run()}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
