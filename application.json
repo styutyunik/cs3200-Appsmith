@@ -13,7 +13,15 @@
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "project info",
+      "isDefault": false
+    },
+    {
+      "id": "employee contributions",
+      "isDefault": false
+    },
+    {
+      "id": "Page3",
       "isDefault": false
     }
   ],

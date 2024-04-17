@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "project info",
+    "slug": "project-info",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 490,
+          "bottomRow": 590,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_projects",
+              "id": "project info_projects",
               "name": "projects",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -38,7 +38,7 @@
           ],
           [
             {
-              "id": "Page1_specific_project",
+              "id": "project info_specific_project",
               "name": "specific_project",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -51,14 +51,15 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "project info",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "661f0b7979717741d8b634c6_661f0b9e79717741d8b634d7"
