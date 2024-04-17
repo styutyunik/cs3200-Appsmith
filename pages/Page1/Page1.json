@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 1500,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -34,6 +34,28 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page1_get_top_sales",
+              "name": "get_top_sales",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Page1_get_sale",
+              "name": "get_sale",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "SalesTable.selectedRow.SaleID"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
