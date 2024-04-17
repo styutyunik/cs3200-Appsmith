@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Detailed Sales Record",
       "isDefault": true
+    },
+    {
+      "id": "Sales based on Employee",
+      "isDefault": false
     }
   ],
   "viewMode": false,

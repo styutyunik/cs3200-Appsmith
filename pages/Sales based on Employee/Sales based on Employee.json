@@ -1,27 +1,26 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Sales based on Employee",
+    "slug": "sales-based-on-employee",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 4896,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1500,
+          "bottomRow": 910,
           "containerStyle": "none",
-          "snapRows": 124,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -29,17 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_get_sales",
-              "name": "get_sales",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_get_top_sales",
+              "id": "Sales based on Employee_get_top_sales",
               "name": "get_top_sales",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -49,12 +38,12 @@
           ],
           [
             {
-              "id": "Page1_get_sale",
-              "name": "get_sale",
+              "id": "Sales based on Employee_employee_sales_info",
+              "name": "employee_sales_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "SalesTable.selectedRow.SaleID"
+                "Employee_Sales_Table.selectedRow.EmployeeID"
               ],
               "timeoutInMillisecond": 10000
             }
@@ -62,15 +51,16 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Sales based on Employee",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6619ce8a77a9287bdf7777a8_6619ce8a77a9287bdf7777aa"
+  "gitSyncId": "661fd67efcc6a14aa15293e2_662052c78c33345db01db74d"
 }

@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Detailed Sales Record",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -56,7 +56,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-16T22:15:48Z"
   },
-  "id": "Page1_get_sales",
+  "id": "Detailed Sales Record_get_sales",
   "deleted": false,
   "gitSyncId": "661ef6b4e67b375813b1b87e_661ef892e67b375813b1b881"
 }
