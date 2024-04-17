@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 660,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -28,14 +28,6 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "add and delete curses_counters",
-              "name": "counters",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
               "id": "add and delete curses_curses",
               "name": "curses",
               "confirmBeforeExecute": false,
@@ -45,6 +37,14 @@
             }
           ],
           [
+            {
+              "id": "add and delete curses_counters",
+              "name": "counters",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "add and delete curses_map",
               "name": "map",
