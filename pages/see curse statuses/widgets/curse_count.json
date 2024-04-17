@@ -14,7 +14,7 @@
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.Name.computedValue"},
-        {"key": "primaryColumns.NumCurses.computedValue"}
+        {"key": "primaryColumns.NumUses.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 12,
@@ -56,7 +56,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713308205588,
+    "columnUpdatedAt": 1713385921495,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
@@ -64,12 +64,12 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "Name",
-        "NumCurses"
+        "NumUses"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 38,
-    "columnWidthMap": {},
+    "bottomRow": 72,
+    "columnWidthMap": {"Name": 335},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 34,
@@ -77,14 +77,14 @@
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "primaryColumns": {
-        "NumCurses": {
-            "computedValue": "{{curse_count.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NumCurses\"]))}}",
+        "NumUses": {
+            "computedValue": "{{curse_count.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"NumUses\"]))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "NumCurses",
+            "alias": "NumUses",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "NumCurses",
+            "id": "NumUses",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -95,7 +95,9 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "NumCurses",
+            "label": "NumUses",
+            "fontStyle": "",
+            "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
@@ -104,8 +106,9 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "NumCurses",
+            "originalId": "NumUses",
             "currencyCode": "USD",
+            "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
         "Name": {
@@ -143,7 +146,7 @@
     "key": "1luien2f1y",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 51,
     "textSize": "0.875rem",
     "widgetId": "7dzubm8b6x",
     "minWidth": 450,
