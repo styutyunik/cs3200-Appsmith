@@ -64,7 +64,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
-    "widgetName": "Table1",
+    "widgetName": "Curses",
     "defaultPageSize": 0,
     "columnOrder": [
         "Name",
@@ -86,7 +86,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "DangerLevel": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DangerLevel\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DangerLevel\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "DangerLevel",
@@ -120,7 +120,7 @@
             "verticalAlignment": "CENTER"
         },
         "Description": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Description",
@@ -154,7 +154,7 @@
             "verticalAlignment": "CENTER"
         },
         "Countercurse": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Countercurse\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Countercurse\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Countercurse",
@@ -188,7 +188,7 @@
             "verticalAlignment": "CENTER"
         },
         "CurseID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CurseID\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CurseID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CurseID",
@@ -222,7 +222,7 @@
             "verticalAlignment": "CENTER"
         },
         "Effect": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Effect\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Effect\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Effect",
@@ -256,7 +256,7 @@
             "verticalAlignment": "CENTER"
         },
         "Name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "computedValue": "{{Curses.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Name",
@@ -290,7 +290,7 @@
     "key": "1luien2f1y",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 38,
     "textSize": "0.875rem",
     "widgetId": "93humssae7",
     "minWidth": 450,

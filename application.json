@@ -11,6 +11,10 @@
     {
       "id": "see curse statuses",
       "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
   "viewMode": false,

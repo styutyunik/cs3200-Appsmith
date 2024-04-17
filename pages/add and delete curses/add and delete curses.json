@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 640,
+          "bottomRow": 590,
           "containerStyle": "none",
           "snapRows": 81,
           "parentRowSpace": 1,
@@ -51,18 +51,6 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "add and delete curses_add_curse",
-              "name": "add_curse",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "JSON_curses.formData"
-              ],
               "timeoutInMillisecond": 10000
             }
           ]
