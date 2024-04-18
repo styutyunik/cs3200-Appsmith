@@ -2,7 +2,7 @@
   "pages": [
     {
       "id": "home page",
-      "isDefault": true
+      "isDefault": true 
     },
     {
       "id": "Find stock of book",
