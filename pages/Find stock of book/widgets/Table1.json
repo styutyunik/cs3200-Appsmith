@@ -59,7 +59,7 @@
         }
     },
     "borderRadius": "1.5rem",
-    "columnUpdatedAt": 1713304578451,
+    "columnUpdatedAt": 1713398133572,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 30,
@@ -68,10 +68,10 @@
     "columnOrder": [
         "BookID",
         "CopyID",
-        "HighestCurse",
-        "NumCurses",
+        "Title",
         "Price",
-        "Title"
+        "HighestCurse",
+        "NumCurses"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",

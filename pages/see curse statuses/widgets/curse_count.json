@@ -57,16 +57,16 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713393754259,
+    "columnUpdatedAt": 1713398148103,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 37,
     "widgetName": "curse_count",
     "defaultPageSize": 0,
     "columnOrder": [
+        "CurseId",
         "Name",
-        "NumUses",
-        "CurseId"
+        "NumUses"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -165,7 +165,7 @@
             "index": 0,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Name",
+            "label": "CurseName",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",

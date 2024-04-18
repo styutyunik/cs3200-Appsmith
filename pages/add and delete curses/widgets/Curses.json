@@ -60,19 +60,19 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713308573748,
+    "columnUpdatedAt": 1713398113687,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
     "widgetName": "Curses",
     "defaultPageSize": 0,
     "columnOrder": [
-        "Name",
-        "Countercurse",
         "CurseID",
+        "Name",
         "DangerLevel",
+        "Effect",
         "Description",
-        "Effect"
+        "Countercurse"
     ],
     "dynamicPropertyPathList": [],
     "displayName": "Table",
@@ -273,7 +273,7 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Name",
+            "label": "CurseName",
             "columnType": "text",
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
